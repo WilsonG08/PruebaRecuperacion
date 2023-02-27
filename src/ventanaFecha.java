@@ -18,7 +18,6 @@ public class ventanaFecha {
 
     public ventanaFecha(){
 
-        //String[] mes = new String[]{"Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"};
 
 
         //COMBO BOX DIA
@@ -129,21 +128,3 @@ public class ventanaFecha {
 
 }
 
-
-
-/*
-
-public int convierteMes(Object seleccion) {
-    if (seleccion instanceof String) {
-        String mesSeleccionado = (String)seleccion;
-        for (int mes = 0; mes < arrayMeses.length; mes++) {
-            if (mesSeleccionado.equals(arrayMeses[mes])) {
-                return mes;
-               //puedes retornar mes+1 si quieres que enero sea uno
-               //pero usualmente enero se toma como cero,...
-            }
-        }
-    }
-    return -1;
-}
-*/
